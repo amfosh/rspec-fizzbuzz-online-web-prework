@@ -1,11 +1,11 @@
 # Don't forget! This file needs to be 'required' in its spec file
 # See README.md for instructions on how to do this
 def FizzBuzz(int)
-  if int % 3 == 0 && i % 5 == 0 
+  if int % 3 == 0 && int % 5 == 0 
     puts "FizzBuzz"
-  elseif i % 3 == 0 
+  elseif int % 3 == 0 
     puts "Fizz"
-  elseif i % 5 == 0 
+  elseif int % 5 == 0 
     puts "Buzz"
   end
 end
